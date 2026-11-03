@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training outputs (keep large/regenerable files out of git)
+runs/
+logs/
+wandb/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.pkl
+
+# Keep final figures for the README
+!results/figures/
+
+# Reference papers from prof (copyrighted, don't redistribute)
+papers/
+*.pdf
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
